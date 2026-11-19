@@ -1,7 +1,7 @@
 """Interfejs konsolowy aplikacji"""
 from termcolor import colored
 from dane import wczytaj_dane, wyswietl_dane
-# from analiza import podstawowe_statystyki
+from analiza import podstawowe_statystyki
 # from wykresy import generuj_wykres
 # from baza import zapisz_do_bazy
 
@@ -40,7 +40,7 @@ def uruchum_menu():
 
         elif wybor == "3":
             print("wybrano opcje 3")
-            # podstawowe_statystyki(dane)
+            podstawowe_statystyki(dane)
 
         elif wybor == "4":
             print("wybrano opcje 4")
